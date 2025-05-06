@@ -7,12 +7,13 @@ import scala.language.postfixOps
 
 
 class Http2Test extends Script {
+  http2()
 
   val check = () =>
     asserts
 
   val load = Load(
-    Http("https://127.0.0.1:8443/"),
+    Http("https://127.0.0.1/"),
     check
   )
 

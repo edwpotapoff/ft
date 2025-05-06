@@ -2,7 +2,7 @@ package scenarios.test
 
 import io.ft.api.annotation.ShowScenario
 import io.ft.{DebugScenario, ScenarioObj}
-import scripts.test.Http2Test
+import scripts.test.{Http2Test, HttpTest, ScriptWs}
 
 import scala.concurrent.duration.DurationInt
 import scala.language.postfixOps
